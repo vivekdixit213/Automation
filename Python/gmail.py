@@ -6,9 +6,10 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
+System.setProperty("webdriver.chrome.driver", "pathofchromedriver\\chromedriver.exe");
 
-driver= webdriver.Firefox()
-driver.get("http://mail.google.com")
+#driver= webdriver.Firefox()
+#driver.get("http://mail.google.com")
 
 time.sleep(5)
 
